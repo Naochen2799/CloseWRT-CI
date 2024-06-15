@@ -20,13 +20,8 @@ UPDATE_PACKAGE() {
 	fi
 }
 
-UPDATE_PACKAGE "design" "gngpp/luci-theme-design" "js"
-UPDATE_PACKAGE "design-config" "gngpp/luci-app-design-config" "master"
 UPDATE_PACKAGE "argon" "jerrykuku/luci-theme-argon" "master"
 UPDATE_PACKAGE "argon-config" "jerrykuku/luci-app-argon-config" "master"
-
-UPDATE_PACKAGE "helloworld" "fw876/helloworld" "master"
-UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "dev"
 
 #更新软件包版本
 UPDATE_VERSION() {
