@@ -3,9 +3,9 @@ name: CWRT-ONE
 
 #CI计划
 on:
-  #自动编译：每天早上4点
-  #schedule:
-    #- cron: 0 20 * * *
+  #自动编译：每天早上3点
+  schedule:
+    - cron: 0 19 * * *
   #手动编译
   workflow_dispatch:
     inputs:
@@ -35,12 +35,12 @@ jobs:
       #默认密码，仅作提示，修改无用
       WRT_PW: 无
       #默认地址
-      WRT_IP: 192.168.10.1
+      WRT_IP: 192.168.1.1
       #默认源码
-      WRT_URL: https://github.com/Aabandon/immortalwrt-mt798x.git
+      WRT_URL: https://github.com/padavanonly/immortalwrt-mt798x.git
       #默认分支
       WRT_BRANCH: test
       #仅输出配置文件
       WRT_TEST: ${{inputs.TEST || 'false'}}
       #内存压缩，256内存推荐开启
-      WRT_SHRINK: false
+      WRT_SHRINK: true
