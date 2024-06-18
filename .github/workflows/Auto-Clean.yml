@@ -2,13 +2,13 @@ name: Auto-Clean
 
 on:
   #自动清理：每天早上7点
-  #schedule:
+  schedule:
     #- cron: 0 23 * * *
-  #手动清理
+  手动清理
   workflow_dispatch:
     inputs:
       NUMBER:
-        default: '6'
+        default: '1'
         required: false
         type: string
 
