@@ -50,7 +50,7 @@ UPDATE_VERSION() {
 UPDATE_VERSION "chinadns-ng" "zfl9/chinadns-ng"
 UPDATE_VERSION "dns2tcp" "zfl9/dns2tcp"
 UPDATE_VERSION "hysteria" "apernet/hysteria"
-UPDATE_VERSION "ipt2socks" "zfl9/ipt2socks"
+#UPDATE_VERSION "ipt2socks" "zfl9/ipt2socks"
 UPDATE_VERSION "microsocks" "rofl0r/microsocks"
 UPDATE_VERSION "sing-box" "SagerNet/sing-box"
 UPDATE_VERSION "xray-core" "XTLS/Xray-core"
