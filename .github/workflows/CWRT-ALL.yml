@@ -35,7 +35,7 @@ jobs:
       fail-fast: false
       #max-parallel: 3
       matrix:
-        TARGET: MTK-7981
+        TARGET: [MTK-7981]
         SOURCE: [VIKINGYFY/mt798x-immortalwrt, padavanonly/immortalwrt-mt798x]
         include:
           - SOURCE: padavanonly/immortalwrt-mt798x
