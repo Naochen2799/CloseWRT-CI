@@ -7,8 +7,8 @@ https://github.com/hanwckf/immortalwrt-mt798x.git
 PADAVANONLY源码：
 https://github.com/padavanonly/immortalwrt-mt798x.git
 
-AABANDON源码：
-https://github.com/Aabandon/immortalwrt-mt798x.git
+VIKINGYFY源码：
+https://github.com/VIKINGYFY/mt798x-immortalwrt.git
 
 # 固件简要说明：
 
