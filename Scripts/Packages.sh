@@ -31,12 +31,12 @@ UPDATE_PACKAGE "passwall" "xiaorouji/openwrt-passwall" "main" "pkg"
 
 #UPDATE_PACKAGE "alist" "sbwml/luci-app-alist" "main"
 #UPDATE_PACKAGE "mosdns" "sbwml/luci-app-mosdns" "v5"
+#UPDATE_PACKAGE "vnt" "lazyoop/networking-artifact" "main" "pkg"
+#UPDATE_PACKAGE "easytier" "lazyoop/networking-artifact" "main" "pkg"
 
 #UPDATE_PACKAGE "luci-app-advancedplus" "VIKINGYFY/packages" "main" "pkg"
-#UPDATE_PACKAGE "luci-app-easytier" "lazyoop/networking-artifact" "main" "pkg"
 UPDATE_PACKAGE "luci-app-gecoosac" "lwb1978/openwrt-gecoosac" "main"
 #UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
-#UPDATE_PACKAGE "luci-app-vnt" "lazyoop/networking-artifact" "main" "pkg"
 #UPDATE_PACKAGE "luci-app-wolplus" "VIKINGYFY/packages" "main" "pkg"
 
 if [[ $WRT_BRANCH == *"23.05"* ]]; then
