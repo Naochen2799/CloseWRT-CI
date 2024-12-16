@@ -3,15 +3,15 @@ name: CWRT-ALL
 
 #CI计划
 on:
-  #自动编译：每周早上4点
+  #自动编译：每天早上2点
   schedule:
-    - cron: 0 20 * * 0
+    - cron: 0 18 * * *
   #手动编译
   workflow_dispatch:
     inputs:
       ADJUST:
-        description: '内存低占用模式，默认关闭。'
-        default: 'false'
+        description: '内存低占用模式，默认开启。'
+        default: 'true'
         required: false
         type: boolean
       PACKAGE:
@@ -52,10 +52,12 @@ jobs:
       fail-fast: false
       max-parallel: 3
       matrix:
-        TARGET: [MTK-7981, MTK-7986]
+        TARGET: [MTK-7981]
         REPO_INFO:
           - {SOURCE: hanwckf/immortalwrt-mt798x, BRANCH: openwrt-21.02}
           - {SOURCE: padavanonly/immortalwrt-mt798x, BRANCH: openwrt-21.02}
+          - {SOURCE: immortalwrt-mt798x/immortalwrt-mt798x, BRANCH: openwrt-21.02}
+          #- {SOURCE: dailook/immortalwrt-mt798x-23.05, BRANCH: openwrt-23.05}
           #- {SOURCE: padavanonly/immortalwrt-mt798x-23.05, BRANCH: openwrt-23.05}
 
     #调用公用编译核心WRT-CORE.yml
@@ -72,7 +74,7 @@ jobs:
       #默认WIFI密码
       WRT_WORD: 12345678
       #默认地址
-      WRT_IP: 192.168.10.1
+      WRT_IP: 192.168.1.1
       #默认密码，仅作提示，修改无用
       WRT_PW: 无
       #源码链接
