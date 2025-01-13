@@ -7,12 +7,18 @@ https://github.com/hanwckf/immortalwrt-mt798x.git
 PADAVANONLY源码：
 https://github.com/padavanonly/immortalwrt-mt798x.git
 
+Immortalwrt-mt798x源码：
+https://github.com/immortalwrt-mt798x/immortalwrt-mt798x.git
+
 PADAVANONLY-23.05源码：
 https://github.com/padavanonly/immortalwrt-mt798x-23.05.git
 
+Dailook-23.05源码：
+https://github.com/dailook/immortalwrt-mt798x-23.05.git
+
 # 固件简要说明：
 
-固件每天早上4点自动编译。
+固件每天早上2点自动编译。
 
 固件信息里的时间为编译开始的时间，方便核对上游源码提交时间。
 
