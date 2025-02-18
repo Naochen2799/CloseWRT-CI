@@ -38,11 +38,8 @@ fi
 #非21.02专用
 if [[ $WRT_BRANCH != *"21"* ]]; then
 	sed -i '/miniupnpd/d; /luci-app-upnp/d' ./.config
-
 	echo "CONFIG_PACKAGE_luci-app-upnp=n" >> ./.config
 	echo "CONFIG_PACKAGE_miniupnpd=n" >> ./.config
-
 	echo "CONFIG_PACKAGE_luci-app-homeproxy=y" >> ./.config
-	echo "CONFIG_PACKAGE_luci-app-nikki=y" >> ./.config
 	echo "CONFIG_PACKAGE_luci-app-upnp-mtk-adjust=y" >> ./.config
 fi
