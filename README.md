@@ -1,8 +1,11 @@
 # CloseWRT-CI
 云编译CloseWRT固件
 
-PADAVANONLY-24.10源码：
-https://github.com/padavanonly/immortalwrt-mt798x-24.10.git
+Zhiern-21.02源码：
+https://github.com/zhiern/immortalwrt-mt798x
+
+Dailook-21.02源码：
+https://github.com/dailook/immortalwrt-mt798x
 
 # 注意：
 
@@ -10,7 +13,7 @@ https://github.com/padavanonly/immortalwrt-mt798x-24.10.git
 
 # 固件简要说明：
 
-固件每天早上4点自动编译。
+固件每天早上2点自动编译。
 
 固件信息里的时间为编译开始的时间，方便核对上游源码提交时间。
 
